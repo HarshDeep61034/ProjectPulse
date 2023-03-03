@@ -8,7 +8,7 @@ ProjectPulse is an open-source project website that provides structured and appe
 -Responsive design for desktop and mobile devices
 
 ## Getting Started
--To use Project Pulse, simply visit the website at https://HarshDeep61034.github.io/ProjectPulse and start browsing through the collection of lofi music links.
+-To use Project Pulse, simply visit the website at HarshDeep61034.github.io/ProjectPulse and start browsing through the collection of lofi music links.
 
 -To contribute to the project, fork the repository and make changes as desired. Submit a pull request to have your changes reviewed and merged into the main branch.
 
