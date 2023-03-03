@@ -1,6 +1,6 @@
 { pkgs }: {
-    deps = [
-        pkgs.sudo
-        pkgs.cowsay
-    ];
+  deps = [
+    pkgs.nodePackages.vscode-langservers-extracted
+    pkgs.nodePackages.typescript-language-server  
+  ];
 }
