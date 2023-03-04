@@ -80,9 +80,6 @@ span.head-span{
   text-align: center;
 }
 
-/* .mid{
-  height: 200vh;
-} */
 .mid-head{
   margin: 15px 0px;
   font-size: 50px;
@@ -95,7 +92,6 @@ span.head-span{
 }
 .content-mid{
   width: 100vw;
-  
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -124,4 +120,20 @@ span.head-span{
   .para{
     width: 80%;
   }
+}
+footer{
+  height: 20vh;
+  color: white;
+  background-color: #121212;
+  display: flex;
+}
+
+.foot{
+  margin: auto;
+}
+
+img.gif{
+  border: 2px solid #121212;
+  border-radius: 10px;
+  margin: 35px 20px;
 }
