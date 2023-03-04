@@ -80,15 +80,39 @@ span.head-span{
   text-align: center;
 }
 
-.mid{
-  height: 100vh;
-}
+/* .mid{
+  height: 200vh;
+} */
 .mid-head{
-  font-size: 35px;
+  margin: 15px 0px;
+  font-size: 50px;
   color: black;
   text-align: center;
 }
 .dark{
   background: black;
   color: white;
+}
+.content-mid{
+  width: 100vw;
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.seprator{
+  border-top:8px solid #b1b3b1
+}
+
+.head{
+  font-size: 40px;
+}
+.para{
+  width: 30%;
+  margin: 10px 50px;
+  text-align: center;
+}
+
+.head{
+  margin: 0px 17px;
 }
