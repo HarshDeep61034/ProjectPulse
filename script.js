@@ -2,6 +2,7 @@
 const startEl = document.getElementById('start');
 const themeEl = document.getElementById('theme');
 const midEl = document.getElementsByClassName('mid')[0];
+const midheadEl = document.getElementsByClassName('mid-head')[0];
 
 startEl.addEventListener('click', () => {
   window.scroll({
@@ -12,4 +13,5 @@ startEl.addEventListener('click', () => {
 
 themeEl.addEventListener('click', () => {
   midEl.classList.toggle('dark');
+  midheadEl.classList.toggle('dark');
 })
