@@ -41,10 +41,7 @@ nav{
   color: white;
   border: 0.7px solid white;
 }
-.dark{
-  background: black;
-  color: white;
-}
+
 #start{
   margin-top: 25px;
   height: 45px;
@@ -85,4 +82,13 @@ span.head-span{
 
 .mid{
   height: 100vh;
+}
+.mid-head{
+  font-size: 35px;
+  color: black;
+  text-align: center;
+}
+.dark{
+  background: black;
+  color: white;
 }
