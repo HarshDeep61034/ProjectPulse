@@ -3,7 +3,9 @@
   padding: 0px;
   margin: 0px;
   font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
 }
+
 main{
   min-height: 100vh;
   width: 100vw;
@@ -17,17 +19,70 @@ main{
   max-width: 100vw;
   background: rgba(0,0,0,0.6);
 }
-.mid{
-  height: 40vh;
-  background: white;
-}
-h1{
-color: white;  
-  margin-left: 25px;
-}
 nav{
   display: flex;
   font-size: 30px;
   padding-top: 20px;
   padding-left: 15px;
+}
+#theme{
+  position: absolute;
+  right: 10px;
+  top: 25px;
+  height: 45px;
+  width: 100px;
+  border: none;
+  border-radius: 7px;
+  font-size: 20px;
+  transition: all 0.4s;
+}
+#theme:hover{
+  background-color: #121212;
+  color: white;
+  border: 0.7px solid white;
+}
+.dark{
+  background: black;
+  color: white;
+}
+#start{
+  margin-top: 25px;
+  height: 45px;
+  width: 150px;
+  border: none;
+  border-radius: 7px;
+  font-size: 20px;
+  transition: all 0.4s;
+}
+#start:hover{
+  background-color: #121212;
+  color: white;
+  border: 0.7px solid white;
+}
+h1{
+color: white;  
+  margin-left: 25px;
+}
+
+p.head-line{
+  font-size: 30px;
+  color: white;
+}
+span.head-span{
+  font-size: 20px;
+  color: white;
+  font-weight: 100;
+  display: block;
+}
+.headings{
+  height: 80vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.mid{
+  height: 100vh;
 }
