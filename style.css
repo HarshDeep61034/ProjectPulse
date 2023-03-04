@@ -116,3 +116,12 @@ span.head-span{
 .head{
   margin: 0px 17px;
 }
+
+@media only screen and (max-width: 870px) {
+ .content-mid{
+   flex-direction: column;
+ }
+  .para{
+    width: 80%;
+  }
+}
