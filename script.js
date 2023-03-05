@@ -3,7 +3,7 @@ const startEl = document.getElementById('start');
 const themeEl = document.getElementById('theme');
 const midEl = document.getElementsByClassName('mid')[0];
 const midheadEl = document.getElementsByClassName('mid-head')[0];
-
+const contentMidEl = document.getElementsByClassName('content-mid'); 
 startEl.addEventListener('click', () => {
   window.scroll({
     top: 800,
