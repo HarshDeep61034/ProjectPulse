@@ -120,6 +120,23 @@ span.head-span{
   .para{
     width: 80%;
   }
+
+  #theme{
+    height: 20px;
+    width: 50px;
+    font-size: 10px;
+    top: 15px;
+  }
+  #theme:hover, #start:hover{
+    background-color: white;
+  color: black;
+  border: none;
+  }
+  #theme:active, #start:active{
+  background-color: #121212;
+  color: white;
+  border: 0.7px solid white;
+}
 }
 footer{
   height: 20vh;
@@ -136,4 +153,32 @@ img.gif{
   border: 2px solid #121212;
   border-radius: 10px;
   margin: 35px 20px;
+}
+.h1{
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+}
+.redirect{
+  height: 45px;
+  width: 100px;
+  background-color: #121212;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  display: block;
+  margin: 20px auto;
+  transition: all 0.4s;
+}
+.redirect:hover{
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+}
+.howitworks{
+  border: 2px solid #121212;
+  border-radius: 2vh;
+  margin: 8px 5px;
+  text-align: center;
+ padding: 20px;
 }
