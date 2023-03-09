@@ -3,15 +3,16 @@ const startEl = document.getElementById('start');
 const themeEl = document.getElementById('theme');
 const midEl = document.getElementsByClassName('mid')[0];
 const midheadEl = document.getElementsByClassName('mid-head')[0];
-const contentMidEl = document.getElementsByClassName('content-mid'); 
+const contentMidEl = document.querySelectorAll('.content-mid'); 
 startEl.addEventListener('click', () => {
   window.scroll({
     top: 800,
     behavior: 'smooth'
   });
-})
+});
 
 themeEl.addEventListener('click', () => {
-  midEl.classList.toggle('dark');
-  midheadEl.classList.toggle('dark');
-})
+  // midEl.classList.toggle('dark');
+  // midheadEl.classList.toggle('dark');
+  contentMidEl.classList.toggle('dark');
+});

@@ -95,11 +95,13 @@ span.head-span{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: white;
+}
+.color{
+   color: white;
   background-color: #4338CA;
 }
 .dark{
-  background: black;
+  background: #0d023c;
   color: white;
 }
 .seprator{
@@ -177,6 +179,9 @@ img.gif{
   display: block;
   margin: 20px auto;
   transition: all 0.4s;
+}
+a{
+  text-decoration: none;
 }
 .redirect:hover{
   background-color: white;

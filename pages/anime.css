@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+overflow-x: hidden;
+
+}  
+nav{
+    height: 10vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 1.5rem;
+}
+main{
+   
+    width: 100vw;
+    background-color: #181818;
+    border-top: 0.6px solid rgb(151, 151, 151);
+    border-bottom: 0.6px solid rgb(151, 151, 151);
+    color: white;
+}
+
+.sub-headings{
+    margin: 20px;
+    font-size: 1.3rem;
+    transition: all 0.3s;
+}
+.sub-headings:hover{
+    color: #1EC85A;
+}
+
+.popular{
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+    justify-content: center;
+}
+.item{
+    width: 250px;
+    height: 250px;
+    background: white;
+    margin: 10px;
+    transition: all 0.3s;
+}
+
+footer{
+    height: 20vh;
+    color: white;
+    background-color: black;
+    display: flex;
+  }
+  .foot{
+    margin: auto;
+  }
+
+.onepiece{
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNmPBJphGmZNKxYazpJ8hxN2T0vvgTLqS-Ug&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.onepiece:hover::before {
+    content: "OnePiece";
+    display: flex;
+    text-align: center;
+    width: 100%;
+    height: 40%;
+    position: relative;
+    top: 60%;
+    transition: all 0.4s;
+    display: block;
+    color: black;
+    font-size: 1.7rem;
+    opacity: 0.7;
+    background-color: white;
+}
+.naruto{
+    background: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e3057359-833a-4341-a743-c29e2d9eec02/d2pnia2-ae9eb4f8-889f-40e8-bc34-bdcf4d3931b0.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTpmaWxlLmRvd25sb2FkIl0sIm9iaiI6W1t7InBhdGgiOiIvZi9lMzA1NzM1OS04MzNhLTQzNDEtYTc0My1jMjllMmQ5ZWVjMDIvZDJwbmlhMi1hZTllYjRmOC04ODlmLTQwZTgtYmMzNC1iZGNmNGQzOTMxYjAuanBnIn1dXX0.GGkVIDhFF2ngJOl9wahSJm434eGDncIWdTMF_THEfZk) no-repeat;
+    background-size: cover;
+    
+}
+.naruto:hover::before {
+    content: "Naruto";
+    display: flex;
+    text-align: center;
+    width: 100%;
+    height: 40%;
+    position: relative;
+    top: 60%;
+    transition: all 0.4s;
+    display: block;
+    color: black;
+    font-size: 1.7rem;
+    opacity: 0.7;
+    background-color: white;
+}
+.deathnote{
+    background: url(https://th.bing.com/th/id/OIP.mWFo5HcMAUC5DlGvrxB4OAHaHa?pid=ImgDet&rs=1) no-repeat;
+    background-size: cover;
+}
+.deathnote:hover::before {
+    content: "Deathnote";
+    display: flex;
+    text-align: center;
+    width: 100%;
+    height: 40%;
+    position: relative;
+    top: 60%;
+    transition: all 0.4s;
+    display: block;
+    color: black;
+    font-size: 1.7rem;
+    opacity: 0.7;
+    background-color: white;
+}
+.demonslayer{
+    background: url(https://assets-prd.ignimgs.com/2022/09/22/demonslayer-1663870772245.jpg) no-repeat;
+    background-size: cover;
+}
+.demonslayer:hover::before {
+    content: "Demon Slayer";
+    display: flex;
+    text-align: center;
+    width: 100%;
+    height: 40%;
+    position: relative;
+    top: 60%;
+    transition: all 0.4s;
+    display: block;
+    color: black;
+    font-size: 1.7rem;
+    opacity: 0.7;
+    background-color: white;
+}
+.AttackonTitan{
+    background: url(https://assets-prd.ignimgs.com/2022/09/22/attack-on-colossal-titan-1663870328553.jpg) no-repeat;
+    background-size: cover;
+}
+.AttackonTitan:hover::before {
+    content: "Attack on Titan";
+    display: flex;
+    text-align: center;
+    width: 100%;
+    height: 40%;
+    position: relative;
+    top: 60%;
+    transition: all 0.4s;
+    display: block;
+    color: black;
+    font-size: 1.7rem;
+    opacity: 0.7;
+    background-color: white;
+}
+.yurionice{
+    background: url(https://i.pinimg.com/originals/8f/7e/b0/8f7eb0478ca9070b7e07cde956535a43.jpg) no-repeat;
+    background-size: cover;
+}
+.yurionice:hover::before {
+    content: "Yuri!!! on the ice";
+    display: flex;
+    text-align: center;
+    width: 100%;
+    height: 40%;
+    position: relative;
+    top: 60%;
+    transition: all 0.4s;
+    display: block;
+    color: black;
+    font-size: 1.7rem;
+    opacity: 0.7;
+    background-color: white;
+}
+.assassinationclass{
+    background: url(https://avatarfiles.alphacoders.com/141/141828.jpg) no-repeat;
+    background-size: cover;
+}
+.assassinationclass:hover::before {
+    content: "Assassination Classroom";
+    display: flex;
+    text-align: center;
+    width: 100%;
+    height: 40%;
+    position: relative;
+    top: 60%;
+    transition: all 0.4s;
+    display: block;
+    color: black;
+    font-size: 1.7rem;
+    opacity: 0.7;
+    background-color: white;
+}
+.dragonballz{
+    background: url(https://avatarfiles.alphacoders.com/116/116402.png) no-repeat;
+    background-size: cover;
+}
+.dragonballz:hover::before {
+    content: "Dragon Ball Z";
+    display: flex;
+    text-align: center;
+    width: 100%;
+    height: 40%;
+    position: relative;
+    top: 60%;
+    transition: all 0.4s;
+    display: block;
+    color: black;
+    font-size: 1.7rem;
+    opacity: 0.7;
+    background-color: white;
+}
+.item{
+    border-radius: 10px;
+    border: 0.8px solid rgb(0, 0, 0);
+}
+
+.item:hover{
+    transform: scale(1.07);
+    opacity: 0.5;
+}
