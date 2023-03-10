@@ -25,24 +25,9 @@ nav{
   padding-top: 20px;
   padding-left: 15px;
 }
-#theme{
-  position: absolute;
-  right: 10px;
-  top: 25px;
-  height: 45px;
-  width: 100px;
-  border: none;
-  border-radius: 7px;
-  font-size: 20px;
-  transition: all 0.4s;
-}
-#theme:hover{
-  background-color: #121212;
-  color: white;
-  border: 0.7px solid white;
-}
+
 .logo{
-  color: white;
+  color: #1EC85A;
   background-color: white;
 }
 #start{
@@ -66,7 +51,7 @@ color: white;
 
 p.head-line{
   font-size: 30px;
-  color: white;
+  color: white;;
 }
 span.head-span{
   font-size: 20px;
@@ -84,10 +69,11 @@ span.head-span{
 }
 
 .mid-head{
-  margin: 15px 0px;
+  padding: 15px 0px;
   font-size: 50px;
-  color: black;
+  color: #00203FFF;
   text-align: center;
+  background-color: #ADEFD1FF;
 }
 
 .content-mid{
@@ -95,21 +81,9 @@ span.head-span{
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-.color{
-   color: white;
-  background-color: #4338CA;
-}
-.dark{
-  background: #0d023c;
+  background-color: #00203FFF;
   color: white;
 }
-.seprator{
-  height: 5px;
-  background-color: black;
-  border: none;
-}
-
 .head{
   font-size: 40px;
 }
@@ -172,8 +146,8 @@ img.gif{
 .redirect{
   height: 45px;
   width: 100px;
-  background-color: #121212;
-  color: white;
+  background-color: #ffffff;
+  color: #121212;
   border-radius: 10px;
   border: none;
   display: block;
@@ -184,9 +158,9 @@ a{
   text-decoration: none;
 }
 .redirect:hover{
-  background-color: white;
-  border: 1px solid black;
-  color: black;
+  background-color: #00203FFF;
+  border: 1px solid rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
 }
 .howitworks{
   border: 2px solid #121212;
@@ -197,4 +171,5 @@ a{
 .gap{
   width: 100%;
   height: 10vh;
+  background-color: #ADEFD1FF;
 }

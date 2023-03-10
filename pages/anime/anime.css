@@ -1,15 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
-*{
+
+* {
     padding: 0;
     margin: 0;
     font-family: 'Poppins', sans-serif;
-overflow-x: hidden;
+    overflow-x: hidden;
 
-}  
-h1{
+}
+
+h1 {
     color: #1EC85A;
 }
-nav{
+
+nav {
     height: 10vh;
     background-color: black;
     color: white;
@@ -18,8 +21,15 @@ nav{
     padding: 20px;
     font-size: 1.5rem;
 }
+.bg{ 
+    width: 100vw;
+    height: 60vh;
+    background: url(https://cdn.wallpapersafari.com/74/3/H809Ti.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 
-main{
+main {
     width: 100vw;
     background-color: #181818;
     border-top: 0.6px solid rgb(151, 151, 151);
@@ -27,23 +37,25 @@ main{
     color: white;
 }
 
-.sub-headings{
+.sub-headings {
     margin: 20px;
     font-size: 1.3rem;
     transition: all 0.3s;
 }
-.sub-headings:hover{
+
+.sub-headings:hover {
     color: #1EC85A;
 }
 
-.popular{
+.popular {
     width: 100vw;
     display: flex;
     flex-wrap: wrap;
     padding-bottom: 30px;
     justify-content: center;
 }
-.item{
+
+.item {
     width: 250px;
     height: 250px;
     background: white;
@@ -51,22 +63,24 @@ main{
     transition: all 0.3s;
 }
 
-footer{
+footer {
     height: 20vh;
     color: white;
     background-color: black;
     display: flex;
-  }
-  .foot{
-    margin: auto;
-  }
+}
 
-.onepiece{
+.foot {
+    margin: auto;
+}
+
+.onepiece {
     background: url(https://images5.alphacoders.com/951/thumb-1920-951748.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
+
 .onepiece:hover::before {
     content: "OnePiece";
     display: flex;
@@ -82,11 +96,13 @@ footer{
     opacity: 0.7;
     background-color: white;
 }
-.naruto{
+
+.naruto {
     background: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e3057359-833a-4341-a743-c29e2d9eec02/d2pnia2-ae9eb4f8-889f-40e8-bc34-bdcf4d3931b0.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTpmaWxlLmRvd25sb2FkIl0sIm9iaiI6W1t7InBhdGgiOiIvZi9lMzA1NzM1OS04MzNhLTQzNDEtYTc0My1jMjllMmQ5ZWVjMDIvZDJwbmlhMi1hZTllYjRmOC04ODlmLTQwZTgtYmMzNC1iZGNmNGQzOTMxYjAuanBnIn1dXX0.GGkVIDhFF2ngJOl9wahSJm434eGDncIWdTMF_THEfZk) no-repeat;
     background-size: cover;
-    
+
 }
+
 .naruto:hover::before {
     content: "Naruto";
     display: flex;
@@ -102,10 +118,12 @@ footer{
     opacity: 0.7;
     background-color: white;
 }
-.deathnote{
+
+.deathnote {
     background: url(https://th.bing.com/th/id/OIP.mWFo5HcMAUC5DlGvrxB4OAHaHa?pid=ImgDet&rs=1) no-repeat;
     background-size: cover;
 }
+
 .deathnote:hover::before {
     content: "Deathnote";
     display: flex;
@@ -121,10 +139,12 @@ footer{
     opacity: 0.7;
     background-color: white;
 }
-.demonslayer{
+
+.demonslayer {
     background: url(https://assets-prd.ignimgs.com/2022/09/22/demonslayer-1663870772245.jpg) no-repeat;
     background-size: cover;
 }
+
 .demonslayer:hover::before {
     content: "Demon Slayer";
     display: flex;
@@ -140,10 +160,12 @@ footer{
     opacity: 0.7;
     background-color: white;
 }
-.AttackonTitan{
+
+.AttackonTitan {
     background: url(https://assets-prd.ignimgs.com/2022/09/22/attack-on-colossal-titan-1663870328553.jpg) no-repeat;
     background-size: cover;
 }
+
 .AttackonTitan:hover::before {
     content: "Attack on Titan";
     display: flex;
@@ -159,10 +181,12 @@ footer{
     opacity: 0.7;
     background-color: white;
 }
-.yurionice{
+
+.yurionice {
     background: url(https://i.pinimg.com/originals/8f/7e/b0/8f7eb0478ca9070b7e07cde956535a43.jpg) no-repeat;
     background-size: cover;
 }
+
 .yurionice:hover::before {
     content: "Yuri!!! on the ice";
     display: flex;
@@ -178,7 +202,8 @@ footer{
     opacity: 0.7;
     background-color: white;
 }
-.assassinationclass{
+
+.assassinationclass {
     background: url(https://avatarfiles.alphacoders.com/141/141828.jpg) no-repeat;
     background-size: cover;
 }
@@ -198,10 +223,12 @@ footer{
     opacity: 0.7;
     background-color: white;
 }
-.dragonballz{
+
+.dragonballz {
     background: url(https://avatarfiles.alphacoders.com/116/116402.png) no-repeat;
     background-size: cover;
 }
+
 .dragonballz:hover::before {
     content: "Dragon Ball Z";
     display: flex;
@@ -217,18 +244,163 @@ footer{
     opacity: 0.7;
     background-color: white;
 }
-.item{
+
+.hunterxhunter {
+    background: url(https://images3.alphacoders.com/970/970638.jpg) no-repeat;
+    background-size: cover;
+}
+
+.hunterxhunter:hover::before {
+    content: "Hunter x Hunter";
+    display: flex;
+    text-align: center;
+    width: 100%;
+    height: 40%;
+    position: relative;
+    top: 60%;
+    transition: all 0.4s;
+    display: block;
+    color: black;
+    font-size: 1.7rem;
+    opacity: 0.7;
+    background-color: white;
+}
+
+.fullmetal {
+    background: url(https://th.bing.com/th/id/OIP.1_Aprq2xu9oohig5CRomrAHaEo?pid=ImgDet&rs=1) no-repeat;
+    background-size: cover;
+}
+
+.fullmetal:hover::before {
+    content: "Fullmetal Alchemsit";
+    display: flex;
+    text-align: center;
+    width: 100%;
+    height: 40%;
+    position: relative;
+    top: 60%;
+    transition: all 0.4s;
+    display: block;
+    color: black;
+    font-size: 1.7rem;
+    opacity: 0.7;
+    background-color: white;
+}
+
+.onepunch {
+    background: url(https://wallpaperaccess.com/full/312945.jpg) no-repeat;
+    background-size: cover;
+}
+
+.onepunch:hover::before {
+    content: "One Punch-Man";
+    display: flex;
+    text-align: center;
+    width: 100%;
+    height: 40%;
+    position: relative;
+    top: 60%;
+    transition: all 0.4s;
+    display: block;
+    color: black;
+    font-size: 1.7rem;
+    opacity: 0.7;
+    background-color: white;
+}
+
+.jujutsu {
+    background: url(https://th.bing.com/th/id/OIP._4mr5y_0zT5nG03Gr1BfXwHaHa?pid=ImgDet&w=500&h=500&rs=1) no-repeat;
+    background-size: cover;
+}
+
+.jujutsu:hover::before {
+    content: "Jujutsu Kaisen";
+    display: flex;
+    text-align: center;
+    width: 100%;
+    height: 40%;
+    position: relative;
+    top: 60%;
+    transition: all 0.4s;
+    display: block;
+    color: black;
+    font-size: 1.7rem;
+    opacity: 0.7;
+    background-color: white;
+}
+
+.monster {
+    background: url(https://th.bing.com/th/id/OIP.zgLniajV4UKY2gYDIY_Z7QAAAA?pid=ImgDet&rs=1) no-repeat;
+    background-size: cover;
+}
+
+.monster:hover::before {
+    content: "Monster";
+    display: flex;
+    text-align: center;
+    width: 100%;
+    height: 40%;
+    position: relative;
+    top: 60%;
+    transition: all 0.4s;
+    display: block;
+    color: black;
+    font-size: 1.7rem;
+    opacity: 0.7;
+    background-color: white;
+}
+.pokemon {
+    background: url(https://wallpapercave.com/wp/tuWSYqf.jpg) no-repeat;
+    background-size: cover;
+}
+
+.pokemon:hover::before {
+    content: "Pokemon";
+    display: flex;
+    text-align: center;
+    width: 100%;
+    height: 40%;
+    position: relative;
+    top: 60%;
+    transition: all 0.4s;
+    display: block;
+    color: black;
+    font-size: 1.7rem;
+    opacity: 0.7;
+    background-color: white;
+}
+.bleach {
+    background: url(https://th.bing.com/th/id/OIP.LexaOc77jbIyCfaQMoFIUwHaFj?pid=ImgDet&rs=1) no-repeat;
+    background-size: cover;
+}
+
+.bleach:hover::before {
+    content: "Bleach";
+    display: flex;
+    text-align: center;
+    width: 100%;
+    height: 40%;
+    position: relative;
+    top: 60%;
+    transition: all 0.4s;
+    display: block;
+    color: black;
+    font-size: 1.7rem;
+    opacity: 0.7;
+    background-color: white;
+}
+.item {
     border-radius: 10px;
     border: 0.8px solid rgb(0, 0, 0);
     position: relative;
 }
 
-.item:hover{
+.item:hover {
     transform: scale(1.07);
     opacity: 0.5;
 }
 
-.btn{
+.btn {
     height: 50px;
     width: 50px;
     background-color: #1EC85A;
@@ -243,9 +415,9 @@ footer{
 
 .triangle-right {
     margin: auto;
-	width: 0;
-	height: 0;
-	border-top: 12px solid transparent;
-	border-left: 24px solid #000000;
-	border-bottom: 12px solid transparent;
+    width: 0;
+    height: 0;
+    border-top: 12px solid transparent;
+    border-left: 24px solid #000000;
+    border-bottom: 12px solid transparent;
 }
