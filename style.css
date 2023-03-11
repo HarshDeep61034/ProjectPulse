@@ -71,9 +71,9 @@ span.head-span{
 .mid-head{
   padding: 15px 0px;
   font-size: 50px;
-  color: #00203FFF;
+  color: white;
   text-align: center;
-  background-color: #ADEFD1FF;
+  background-color: black;
 }
 
 .content-mid{
@@ -81,8 +81,8 @@ span.head-span{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #00203FFF;
-  color: white;
+  background-color: #1EC85A;
+  color: #121212;
 }
 .head{
   font-size: 40px;
@@ -146,8 +146,8 @@ img.gif{
 .redirect{
   height: 45px;
   width: 100px;
-  background-color: #ffffff;
-  color: #121212;
+  background-color: black;
+  color: white;
   border-radius: 10px;
   border: none;
   display: block;
@@ -158,9 +158,9 @@ a{
   text-decoration: none;
 }
 .redirect:hover{
-  background-color: #00203FFF;
-  border: 1px solid rgb(255, 255, 255);
-  color: rgb(255, 255, 255);
+  background-color: #1EC85A;
+  border: 1px solid black;
+  color: black;
 }
 .howitworks{
   border: 2px solid #121212;
@@ -171,5 +171,5 @@ a{
 .gap{
   width: 100%;
   height: 10vh;
-  background-color: #ADEFD1FF;
+  background-color: #121212;
 }

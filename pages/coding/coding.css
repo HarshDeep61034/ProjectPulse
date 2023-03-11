@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+
+}
+
+h1 {
+    color: #1EC85A;
+}
+.bg-text{
+    font-size: 100px;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    position: relative;
+    top: -300px;
+    background-color: rgba(0,0,0,0.5);
+}
+nav {
+    height: 10vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 1.5rem;
+}
+.bg{ 
+    width: 100vw;
+    height: 60vh;
+    background: url(https://i.ytimg.com/vi/jES1ypXRABk/maxresdefault.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: blur(2px) grayscale(0.5);
+}
+
+main {
+    width: 100vw;
+    background-color: #181818;
+    border-top: 0.6px solid rgb(151, 151, 151);
+    border-bottom: 0.6px solid rgb(151, 151, 151);
+    color: white;
+}
+
+.sub-headings {
+    margin: 20px;
+    font-size: 1.3rem;
+    transition: all 0.3s;
+}
+
+.sub-headings:hover {
+    color: #1EC85A;
+}
+
+.popular {
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+    justify-content: center;
+}
+
+.item {
+    width: 250px;
+    height: 250px;
+    background: white;
+    margin: 10px;
+    transition: all 0.3s;
+}
+
+footer {
+    height: 20vh;
+    color: white;
+    background-color: black;
+    display: flex;
+}
+
+.foot {
+    margin: auto;
+}
+
+.first {
+    background: url(https://wallpapercave.com/wp/wp5515265.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.first:hover::before {
+    content: "3 Am Coding Session";
+    display: flex;
+    text-align: center;
+    width: 100%;
+    height: 40%;
+    position: relative;
+    top: 60%;
+    transition: all 0.4s;
+    display: block;
+    color: black;
+    font-size: 1.7rem;
+    opacity: 0.7;
+    background-color: white;
+}
+
+.second {
+    background: url(https://www.funchap.net/wp-content/uploads/2017/02/cool-wallpaper-chill-landscape.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.second:hover::before {
+    content: "Coding Beats";
+    display: flex;
+    text-align: center;
+    width: 100%;
+    height: 40%;
+    position: relative;
+    top: 60%;
+    transition: all 0.4s;
+    display: block;
+    color: black;
+    font-size: 1.7rem;
+    opacity: 0.7;
+    background-color: white;
+}
+
+.third {
+    background: url(https://wallpaperaccess.com/full/4603451.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.third:hover::before {
+    content: "Codifying Session";
+    display: flex;
+    text-align: center;
+    width: 100%;
+    height: 40%;
+    position: relative;
+    top: 60%;
+    transition: all 0.4s;
+    display: block;
+    color: black;
+    font-size: 1.7rem;
+    opacity: 0.7;
+    background-color: white;
+}
+
+.fourth {
+    background: url(https://i.ytimg.com/vi/1tZTn6idYUA/maxresdefault.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.fourth:hover::before {
+    content: "Coding Vibes";
+    display: flex;
+    text-align: center;
+    width: 100%;
+    height: 40%;
+    position: relative;
+    top: 60%;
+    transition: all 0.4s;
+    display: block;
+    color: black;
+    font-size: 1.7rem;
+    opacity: 0.7;
+    background-color: white;
+}
+.item {
+    border-radius: 10px;
+    border: 0.8px solid rgb(0, 0, 0);
+    position: relative;
+    filter: grayscale(0.5);
+}
+
+.item:hover {
+    transform: scale(1.07);
+    opacity: 0.5;
+}
+
+.btn {
+    height: 50px;
+    width: 50px;
+    background-color: #1EC85A;
+    border-radius: 50%;
+    border: none;
+    display: flex;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    opacity: 1;
+}
+
+.triangle-right {
+    margin: auto;
+    width: 0;
+    height: 0;
+    border-top: 12px solid transparent;
+    border-left: 24px solid #000000;
+    border-bottom: 12px solid transparent;
+}
